@@ -1,0 +1,20 @@
+/* Estilos para os botões de Like e Dislike */
+.like-dislike-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .like-button,
+  .dislike-button {
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .like-button:hover,
+  .dislike-button:hover {
+    background-color: #e0e0e0;
+  }
+  
